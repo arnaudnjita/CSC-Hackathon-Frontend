@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: #7833f7;
+    margin: 150px 0 0 0;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px 50px;
+  }
+  .social > .item-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  .id-icon {
+    display: flex;
+    border-radius: 20%;
+    border: 2px solid white;
+    margin: 0 20px 0 0;
+    background-color: #ededed;
+  }
+  .pg-links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 20px 0 0px 0;
+    text-align: left;
+  }
+  .pg-link {
+    color: white;
+    margin: 20px 0 0px 0;
+  }
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px 50px;
+    width: 40%;
+  }
+  .cs-submit > .btn1 {
+    color: black;
+  }
+  .sec5 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }

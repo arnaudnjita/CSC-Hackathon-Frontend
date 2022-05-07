@@ -1,0 +1,53 @@
+<div class="footer">
+    <div class="social">
+      <h2>Social</h2>
+      <div class="item-div">
+        <div class="id-icon">
+          <img height="30px" src="../assets/icons8-linkedin-circled-48.png" alt="" />
+        </div>
+        <div class="id-txt">LinkedIn</div>
+      </div>
+      <div class="item-div">
+        <div class="id-icon">
+          <img height="30px" src="../assets/icons8-twitter-48.png" alt="" />
+        </div>
+        <div class="id-txt">Twitter</div>
+      </div>
+      <div class="item-div">
+        <div class="id-icon">
+          <img height="30px" src="../assets/icons8-facebook-48.png" alt="" />
+        </div>
+        <div class="id-txt">Facebook</div>
+      </div>
+    </div>
+    <div class="pg-links">
+      <h2>Links</h2>
+      <div class="pg-link">Home</div>
+      <div class="pg-link">About</div>
+      <div class="pg-link">Events</div>
+    </div>
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <div class="cs-email">
+        <v-text-field
+          v-model="firstname"
+          :rules="nameRules"
+          :counter="10"
+          label="Enter your email"
+          required
+        ></v-text-field>
+      </div>
+      <div class="cs-subject">
+        <v-textarea
+          name="input-3-1"
+          label="Default style"
+          rows="1"
+          value="What do you wish to let us know."
+          hint="Hint text"
+        ></v-textarea>
+      </div>
+      <div class="cs-submit">
+        <v-btn class="btn1" flat color="#F6C000">Submit message</v-btn>
+      </div>
+    </div>
+  </div>
